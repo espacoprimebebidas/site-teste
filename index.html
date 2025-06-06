@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Interno</title>
+    <link rel="icon" type="image/x-icon" href="https://www.favicon.cc/logo3d/435271.png">
+    <link rel="stylesheet" type="text/css" href="css.css" media="screen"/>
+</head>
+<body>
+    <div id="removerC">
+        <label for="inputRemover">Retirar espaço, traços, pontos, caracteres especiais, etc.</label><br>
+        <input autofocus type="text" id="inputRemover" name="inputRemover" oninput="removerCaracEsp()">
+        <button onclick="copiar(this)">Copiar</button>
+        <button onclick="apagar(this)">Apagar</button>
+    </div>
+    <div id="alterarMM">
+        <label for="inputAlterarMM">Alterar texto para maiúscula, minúscula, etc.</label><br>
+        <input type="text" id="inputAlterarMM" name="inputAlterarMM">
+        <button onclick="maiuscula();checaChecker(this)">Maiúscula</button>
+        <button onclick="minuscula();checaChecker(this)">Minúscula</button>
+        <button onclick="primeiraMaiuscula();checaChecker(this)">1ª Letra Maiúscula</button>
+        <button onclick="copiar(this)">Copiar</button>
+        <button onclick="apagar(this)">Apagar</button>
+    </div>
+    <div id="config">
+        <label>Botões de ação já copiam para a área de transferência automaticamente</label>
+        <input type="checkbox" id="copiarSozinho">
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

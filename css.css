@@ -1,0 +1,41 @@
+div{
+    width: 1000px;
+    max-width: 70%;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 2px
+}
+#removerC{
+    background-color: #B0413E
+}
+#alterarMM{
+    background-color: #4ECDC4
+}
+#config{
+    background-color: #919191;
+}
+button, input{
+    background-color: #ffffffde;
+    border: 0.1px solid #222;
+    border-radius: 5px
+}
+button{
+    margin: 5px auto
+}
+button:hover{
+    cursor: pointer;
+}
+input{
+    width: 400px;
+    text-align: center
+}
+label{
+    display: inline-block;
+    margin-bottom: 5px;
+    letter-spacing: .5px;
+    color: #fff
+}
+#config input{
+    width: auto
+}
